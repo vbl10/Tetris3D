@@ -1,5 +1,6 @@
 # Tetris3D
-This is a 3D version of the classic game Tetris using guipp.<br>
+<img src="Tetris3D.ico" alt="Tetris3D icon"></img><br>
+This is a 3D version of the classic game Tetris using guipp.<br><br>
 Controls
 - Use W/A/S/D to move the tetromino
 - Use Q/E to rotate the tetromino anti-clockwise/clockwise relative to the camera's perspective
