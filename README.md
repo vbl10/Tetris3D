@@ -7,3 +7,4 @@ Controls
 - Use the mouse to orbit the camera around the playfield
 - Use X to accelerate the downfall of the tetromino
 - Use P to pause the game (frees the cursor from the window)
+- Use TAB to toggle drawing of the predicted destination of the tetromino
