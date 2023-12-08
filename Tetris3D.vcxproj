@@ -80,7 +80,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>..\..\guipp;..\..\ext;$(IncludePath)</IncludePath>
+    <IncludePath>guipp\;ext\;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -147,13 +147,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\guipp\guipp.cpp" />
-    <ClCompile Include="..\..\guipp\guipp_button.cpp" />
-    <ClCompile Include="..\..\guipp\guipp_label.cpp" />
-    <ClCompile Include="..\..\guipp\guipp_matrix.cpp" />
-    <ClCompile Include="..\..\guipp\guipp_stack.cpp" />
-    <ClCompile Include="..\..\guipp\guipp_switch.cpp" />
-    <ClCompile Include="ext.cpp" />
+    <ClCompile Include="ext\ext_d2d1.cpp" />
+    <ClCompile Include="ext\ext_matrix.cpp" />
+    <ClCompile Include="ext\ext_win32.cpp" />
+    <ClCompile Include="guipp\guipp.cpp" />
+    <ClCompile Include="guipp\guipp_button.cpp" />
+    <ClCompile Include="guipp\guipp_icon.cpp" />
+    <ClCompile Include="guipp\guipp_label.cpp" />
+    <ClCompile Include="guipp\guipp_matrix.cpp" />
+    <ClCompile Include="guipp\guipp_scroll_bar.cpp" />
+    <ClCompile Include="guipp\guipp_sizer.cpp" />
+    <ClCompile Include="guipp\guipp_stack.cpp" />
+    <ClCompile Include="guipp\guipp_switch.cpp" />
+    <ClCompile Include="guipp\guipp_text_box.cpp" />
     <ClCompile Include="Origem.cpp" />
     <ClCompile Include="Tetris3D.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
@@ -163,7 +169,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\guipp\guipp_switch.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Tetris3D.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>

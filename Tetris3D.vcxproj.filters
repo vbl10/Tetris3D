@@ -16,6 +16,9 @@
     <Filter Include="Arquivos de Origem\guipp">
       <UniqueIdentifier>{6bee43f3-bb78-4246-86da-ba99ede69bf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\ext">
+      <UniqueIdentifier>{17609959-b81f-4b0e-bb2b-42e9eeab4b8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Origem.cpp">
@@ -24,25 +27,43 @@
     <ClCompile Include="Tetris3D.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="ext.cpp">
-      <Filter>Arquivos de Origem</Filter>
+    <ClCompile Include="ext\ext_matrix.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\guipp\guipp_matrix.cpp">
+    <ClCompile Include="ext\ext_win32.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\ext_d2d1.cpp">
+      <Filter>Arquivos de Origem\ext</Filter>
+    </ClCompile>
+    <ClCompile Include="guipp\guipp_button.cpp">
       <Filter>Arquivos de Origem\guipp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\guipp\guipp_label.cpp">
+    <ClCompile Include="guipp\guipp_icon.cpp">
       <Filter>Arquivos de Origem\guipp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\guipp\guipp_button.cpp">
+    <ClCompile Include="guipp\guipp_label.cpp">
       <Filter>Arquivos de Origem\guipp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\guipp\guipp.cpp">
+    <ClCompile Include="guipp\guipp_matrix.cpp">
       <Filter>Arquivos de Origem\guipp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\guipp\guipp_stack.cpp">
+    <ClCompile Include="guipp\guipp_scroll_bar.cpp">
       <Filter>Arquivos de Origem\guipp</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\guipp\guipp_switch.cpp">
+    <ClCompile Include="guipp\guipp_sizer.cpp">
+      <Filter>Arquivos de Origem\guipp</Filter>
+    </ClCompile>
+    <ClCompile Include="guipp\guipp_stack.cpp">
+      <Filter>Arquivos de Origem\guipp</Filter>
+    </ClCompile>
+    <ClCompile Include="guipp\guipp_switch.cpp">
+      <Filter>Arquivos de Origem\guipp</Filter>
+    </ClCompile>
+    <ClCompile Include="guipp\guipp_text_box.cpp">
+      <Filter>Arquivos de Origem\guipp</Filter>
+    </ClCompile>
+    <ClCompile Include="guipp\guipp.cpp">
       <Filter>Arquivos de Origem\guipp</Filter>
     </ClCompile>
   </ItemGroup>
@@ -51,9 +72,6 @@
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\guipp\guipp_switch.h">
       <Filter>Arquivos de Cabeçalho</Filter>
     </ClInclude>
   </ItemGroup>
